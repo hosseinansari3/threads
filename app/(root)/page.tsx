@@ -24,7 +24,12 @@ async function Home({
 
   return (
     <>
-      <h1 className="head-text text-left">Home</h1>
+      <h1 className="head-text text-center">
+        !شبکه اجتماعی مخصوص عمو ممد عزیزی
+      </h1>
+      <h2 className="head-text text-center">
+        !ممد جون دیگه نرو توییتر بیا همینجا
+      </h2>
 
       <section className="mt-9 flex flex-col gap-10">
         {result.posts.length === 0 ? (
